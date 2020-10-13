@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tiny URL of Image</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="js.js"></script>
+	</head>
+<body>
+    <header>
+		<h1>Tiny URL of Image Application</h1>
+		<!-- For people who don't have JavaScript enabled-->
+		<noscript>This web page requires JavaScript to be enabled on your browser.</noscript>
+	</header>
+
+	<main>
+		<h2>Please Enter the URL of an image</h2>
+		<h2>And then click the button</h2>
+
+		<label for="URL">URL:</label>
+		<input type="text" id="URL"><br>
+
+		<label>&nbsp;</label>
+		<input type="button" id="URL_button" value="Click Me after URL is entered" onclick="readURL();"><br>
+
+		<div><input type="button" id="createURL" value="Click me Next" onclick="getrandom();"></div><br>
+
+		<div id="TinyURL"></div>
+
+	</main>
+
+	<footer>
+		<br/>
+		<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+		<br/>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+	</footer>
+
+</body>
+</html>
